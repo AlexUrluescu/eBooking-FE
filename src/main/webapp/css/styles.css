@@ -121,3 +121,49 @@ nav a{
     width: 50px;
     cursor: pointer;
 }
+
+.main-login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-container form input{
+    border: 1px solid #f0f0f0;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login-container form button{
+    border: none;
+    border-radius: 10px;
+    background-color: #1890ff;
+    color: white;
+    padding: 10px 20px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 50px;
+}
